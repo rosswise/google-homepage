@@ -19,7 +19,7 @@ a {
     padding-right: 15px;
 }
 
-.RNNXgb {
+.gsearchbox {
     background: #fff;
     display: flex;
     border-radius: 8px;
@@ -28,9 +28,13 @@ a {
     border-radius: 24px;
     z-index: 3;
     height: 44px;
-    margin: 0 auto;
+    margin: auto;
     width: 482px;
     margin-bottom: 20px;
+}
+
+.gsearchbox:hover {
+    box-shadow: 0 0 2px grey;
 }
 
 .center {
@@ -55,6 +59,9 @@ a {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+.gbutton:hover {
+    box-shadow: 1px 1px 1px grey;
 }
 
 .header {
@@ -113,4 +120,34 @@ a {
 
 .footer .right {
     padding-right: 140px;
+}
+
+.invisible {
+    border: none;
+    margin: 0;
+    height: 40px;
+    width: inherit;
+}
+
+input:focus {
+    outline: none;
+    
+  }
+
+.search-icon {
+    width: 30px;
+    padding-left: 15px;
+}
+
+.mic-icon {
+    width: 30px;
+    padding-right: 15px;
+}
+
+.search-icon {
+    padding-top: 8px;
+}
+
+.mic-icon {
+    padding-top: 4px;
 }

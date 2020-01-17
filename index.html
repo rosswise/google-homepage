@@ -30,15 +30,19 @@
   <center>
   <img alt="Google" class="center" height="92" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272" data-iml="1579146986802" data-atf="1">
 
-  <div><input class="RNNXgb" type="text">   
-
+  <div class="gsearchbox">
+    <div class="search-icon"><img src="search-icon.png"></div>  
+    <input class="invisible" type="text">
+    <div class="mic-icon"><img src="mic-icon.png"></div>   
+    <!-- REWORK THE ABOVE LINE SO THAT THERE IS A DIV WITH A BORDER (THE OVAL KIND OF SHAPE), THAT DIV WRAPS AROUND THE HOURGLASS AND MIC IMAGES ON EITHER SIDE OF A TRANSPARENT INPUT BOX -->
+    <!-- CAN PROBABLY REUSE THE GSEARCHBOX CSS CODE ON THE DIV INSTEAD OF THE INPUT ELEMENT -->
 
 
   </div>
 
   
-    <input class="gbutton" value="Google Search" aria-label="Google Search" name="btnK" type="submit">
-    <input class="gbutton" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit">
+    <input class="gbutton" value="Google Search" type="submit">
+    <input class="gbutton" value="I'm Feeling Lucky" type="submit">
 
 
   </center>
