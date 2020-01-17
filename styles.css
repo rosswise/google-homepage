@@ -1,3 +1,24 @@
+body {
+    font-family: roboto, arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: .25px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.75;
+    
+}
+
+.left a {
+    padding-left: 15px;
+}
+
+.right a {
+    padding-right: 15px;
+}
+
 .RNNXgb {
     background: #fff;
     display: flex;
@@ -16,11 +37,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .gbutton {
-    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
@@ -35,4 +55,62 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.header {
+    padding-top: 15px;
+    height: 30px;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    align-content: center;
+    right: 35px;
+    vertical-align: middle;
+}
+
+.left {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.apps {
+    vertical-align: middle;
+}
+
+.signin {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    width: 110%;
+    border-top: 1px solid #e4e4e4;
+    margin-left: -25px;    
+    color: #5f6368;
+}
+
+.footer .left {
+    padding-left: 35px;
+}
+
+.footer .right {
+    padding-right: 140px;
 }
